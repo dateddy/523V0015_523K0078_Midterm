@@ -80,23 +80,42 @@ Minimum required:
 The project is organized as follows:
 
 ID1_ID2_Midterm/
+
 ├── notebooks/
+
 │   ├── 01_eda.ipynb          # EDA and preprocessing (Part A)
+
 │   ├── 02_mlp.ipynb          # MLP classifier (Part B)
+
 │   ├── 03_rnn.ipynb          # RNN/LSTM/GRU (Part C)
+
 │   └── 04_analysis.ipynb     # Comparison and analysis (Part D)
+
 ├── src/
+
 │   ├── preprocess.py         # Reusable preprocessing pipeline
+
 │   ├── mlp_model.py          # MLPClassifier definition
+
 │   ├── rnn_model.py          # RNNClassifier definition
+
 │   ├── train.py              # Shared training loop
+
 │   └── evaluate.py           # Metrics and error analysis
+
+
 ├── checkpoints/              # Saved model weights (.pt)
+
 │ └── best_model.pt
+
 │
+
 ├── report/
+
 │   └── report.pdf            # Final technical report (max 15 pages)
+
 ├── requirements.txt          # Environment dependencies
+
 └── README.md                 # Project documentation
 
 ## Report Requirements
