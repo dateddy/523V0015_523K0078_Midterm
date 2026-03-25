@@ -42,7 +42,9 @@ Build a reusable pipeline including:
 
 - Architecture:
 
-##### Embedding → Mean Pool → Linear → ReLU → Dropout → Linear → Output
+```
+            Embedding → Mean Pool → Linear → ReLU → Dropout → Linear → Output
+```
 
 - Train and evaluate performance
 
