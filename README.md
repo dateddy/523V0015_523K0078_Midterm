@@ -69,13 +69,13 @@ Key requirements:
 - Convergence behavior
 - Present results in tables and plots (learning curves)
 
-## 🧪 Experiments
+## Experiments
 Minimum required:
 1. Model comparison (RNN variants)
 2. Embedding dimension tuning
 3. Network depth analysis
 
-## 📁 Project Structure
+## Project Structure
 
 The project is organized as follows:
 
