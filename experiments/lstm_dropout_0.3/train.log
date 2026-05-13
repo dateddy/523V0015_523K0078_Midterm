@@ -1,0 +1,12 @@
+[2026-05-13 21:05:27,884] [exp_dropout_0.3] [INFO] Setup complete
+[2026-05-13 21:05:54,302] [exp_dropout_0.3] [INFO] Epoch 1 completed and saved to metrics.csv
+[2026-05-13 21:06:19,592] [exp_dropout_0.3] [INFO] Epoch 2 completed and saved to metrics.csv
+[2026-05-13 21:06:44,467] [exp_dropout_0.3] [INFO] Epoch 3 completed and saved to metrics.csv
+[2026-05-13 21:07:09,144] [exp_dropout_0.3] [INFO] Epoch 4 completed and saved to metrics.csv
+[2026-05-13 21:07:33,457] [exp_dropout_0.3] [INFO] Epoch 5 completed and saved to metrics.csv
+[2026-05-13 21:07:57,842] [exp_dropout_0.3] [INFO] Epoch 6 completed and saved to metrics.csv
+[2026-05-13 21:08:22,207] [exp_dropout_0.3] [INFO] Epoch 7 completed and saved to metrics.csv
+[2026-05-13 21:08:46,528] [exp_dropout_0.3] [INFO] Epoch 8 completed and saved to metrics.csv
+[2026-05-13 21:09:10,913] [exp_dropout_0.3] [INFO] Epoch 9 completed and saved to metrics.csv
+[2026-05-13 21:09:35,516] [exp_dropout_0.3] [INFO] Epoch 10 completed and saved to metrics.csv
+[2026-05-13 21:09:52,035] [exp_dropout_0.3] [INFO] Done. Results saved to experiments\exp_dropout_0.3

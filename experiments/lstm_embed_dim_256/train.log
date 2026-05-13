@@ -1,0 +1,12 @@
+[2026-05-13 20:59:23,519] [exp_embed_dim_256] [INFO] Setup complete
+[2026-05-13 20:59:50,551] [exp_embed_dim_256] [INFO] Epoch 1 completed and saved to metrics.csv
+[2026-05-13 21:00:16,020] [exp_embed_dim_256] [INFO] Epoch 2 completed and saved to metrics.csv
+[2026-05-13 21:00:40,933] [exp_embed_dim_256] [INFO] Epoch 3 completed and saved to metrics.csv
+[2026-05-13 21:01:05,842] [exp_embed_dim_256] [INFO] Epoch 4 completed and saved to metrics.csv
+[2026-05-13 21:01:30,983] [exp_embed_dim_256] [INFO] Epoch 5 completed and saved to metrics.csv
+[2026-05-13 21:01:56,435] [exp_embed_dim_256] [INFO] Epoch 6 completed and saved to metrics.csv
+[2026-05-13 21:02:21,051] [exp_embed_dim_256] [INFO] Epoch 7 completed and saved to metrics.csv
+[2026-05-13 21:02:45,700] [exp_embed_dim_256] [INFO] Epoch 8 completed and saved to metrics.csv
+[2026-05-13 21:03:09,643] [exp_embed_dim_256] [INFO] Epoch 9 completed and saved to metrics.csv
+[2026-05-13 21:03:32,649] [exp_embed_dim_256] [INFO] Epoch 10 completed and saved to metrics.csv
+[2026-05-13 21:03:46,067] [exp_embed_dim_256] [INFO] Done. Results saved to experiments\exp_embed_dim_256

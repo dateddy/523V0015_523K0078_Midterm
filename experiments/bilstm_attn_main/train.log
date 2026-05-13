@@ -1,0 +1,31 @@
+[2026-05-13 16:01:10,255] [bilstm_attn_main] [INFO] Setup complete
+[2026-05-13 16:01:37,521] [bilstm_attn_main] [INFO] Epoch 1 completed and saved to metrics.csv
+[2026-05-13 16:02:02,697] [bilstm_attn_main] [INFO] Epoch 2 completed and saved to metrics.csv
+[2026-05-13 16:02:27,728] [bilstm_attn_main] [INFO] Epoch 3 completed and saved to metrics.csv
+[2026-05-13 16:02:52,729] [bilstm_attn_main] [INFO] Epoch 4 completed and saved to metrics.csv
+[2026-05-13 16:03:17,738] [bilstm_attn_main] [INFO] Epoch 5 completed and saved to metrics.csv
+[2026-05-13 16:03:42,707] [bilstm_attn_main] [INFO] Epoch 6 completed and saved to metrics.csv
+[2026-05-13 16:04:07,848] [bilstm_attn_main] [INFO] Epoch 7 completed and saved to metrics.csv
+[2026-05-13 16:04:07,848] [bilstm_attn_main] [INFO] Early stopping triggered
+[2026-05-13 16:04:22,494] [bilstm_attn_main] [INFO] Done. Results saved to experiments\bilstm_attn_main
+[2026-05-13 17:36:46,900] [bilstm_attn_main] [INFO] Setup complete
+[2026-05-13 17:46:53,865] [bilstm_attn_main] [INFO] Epoch 1 completed and saved to metrics.csv
+[2026-05-13 17:57:01,939] [bilstm_attn_main] [INFO] Epoch 2 completed and saved to metrics.csv
+[2026-05-13 18:06:44,671] [bilstm_attn_main] [INFO] Epoch 3 completed and saved to metrics.csv
+[2026-05-13 18:16:25,775] [bilstm_attn_main] [INFO] Epoch 4 completed and saved to metrics.csv
+[2026-05-13 18:26:09,754] [bilstm_attn_main] [INFO] Epoch 5 completed and saved to metrics.csv
+[2026-05-13 18:35:54,251] [bilstm_attn_main] [INFO] Epoch 6 completed and saved to metrics.csv
+[2026-05-13 18:45:38,539] [bilstm_attn_main] [INFO] Epoch 7 completed and saved to metrics.csv
+[2026-05-13 18:55:22,930] [bilstm_attn_main] [INFO] Epoch 8 completed and saved to metrics.csv
+[2026-05-13 18:55:22,930] [bilstm_attn_main] [INFO] Early stopping triggered
+[2026-05-13 18:56:06,162] [bilstm_attn_main] [INFO] Done. Results saved to experiments\bilstm_attn_main
+[2026-05-13 20:23:07,677] [bilstm_attn_main] [INFO] Setup complete
+[2026-05-13 20:23:34,838] [bilstm_attn_main] [INFO] Epoch 1 completed and saved to metrics.csv
+[2026-05-13 20:24:00,030] [bilstm_attn_main] [INFO] Epoch 2 completed and saved to metrics.csv
+[2026-05-13 20:24:25,077] [bilstm_attn_main] [INFO] Epoch 3 completed and saved to metrics.csv
+[2026-05-13 20:24:50,240] [bilstm_attn_main] [INFO] Epoch 4 completed and saved to metrics.csv
+[2026-05-13 20:25:15,270] [bilstm_attn_main] [INFO] Epoch 5 completed and saved to metrics.csv
+[2026-05-13 20:25:40,634] [bilstm_attn_main] [INFO] Epoch 6 completed and saved to metrics.csv
+[2026-05-13 20:26:05,832] [bilstm_attn_main] [INFO] Epoch 7 completed and saved to metrics.csv
+[2026-05-13 20:26:05,832] [bilstm_attn_main] [INFO] Early stopping triggered
+[2026-05-13 20:26:20,739] [bilstm_attn_main] [INFO] Done. Results saved to experiments\bilstm_attn_main

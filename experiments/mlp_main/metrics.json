@@ -1,0 +1,74 @@
+{
+  "experiment_name": "mlp_main",
+  "config_snapshot": {
+    "run_name": "mlp_main",
+    "seed": 42,
+    "data": {
+      "dataset": "imdb",
+      "cache_dir": "data/raw",
+      "processed_dir": "data/processed",
+      "vocab_size": 20000,
+      "max_len": 256,
+      "min_freq": 2,
+      "val_size": 0.1
+    },
+    "model": {
+      "type": "mlp",
+      "embed_dim": 128,
+      "hidden_dim": 128,
+      "num_layers": 1,
+      "dropout": 0.3,
+      "num_classes": 2,
+      "pad_idx": 0
+    },
+    "train": {
+      "batch_size": 64,
+      "epochs": 10,
+      "lr": 0.001,
+      "optimizer": "adam",
+      "weight_decay": 0.0,
+      "grad_clip": 1.0,
+      "early_stopping_patience": 3,
+      "device": "auto"
+    },
+    "logging": {
+      "log_every_n_steps": 100,
+      "save_last_ckpt": true
+    }
+  },
+  "best": {
+    "epoch": 6,
+    "val_accuracy": 0.8672,
+    "val_f1": 0.8671986401140748
+  },
+  "test": {
+    "accuracy": 0.84508,
+    "f1": 0.8450074185860468,
+    "precision": 0.8457276025628524,
+    "recall": 0.84508,
+    "per_class": {
+      "neg": {
+        "precision": 0.8307645119239322,
+        "recall": 0.86672,
+        "f1": 0.8483614580478447
+      },
+      "pos": {
+        "precision": 0.8606906932017727,
+        "recall": 0.82344,
+        "f1": 0.8416533791242488
+      }
+    },
+    "confusion_matrix": [
+      [
+        10834,
+        1666
+      ],
+      [
+        2207,
+        10293
+      ]
+    ]
+  },
+  "wallclock_seconds": 216.29691390000153,
+  "num_params": 2576770
+}

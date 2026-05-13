@@ -1,0 +1,74 @@
+{
+  "experiment_name": "exp_embed_dim_64",
+  "config_snapshot": {
+    "run_name": "exp_embed_dim_64",
+    "seed": 42,
+    "data": {
+      "dataset": "imdb",
+      "cache_dir": "data/raw",
+      "processed_dir": "data/processed",
+      "vocab_size": 20000,
+      "max_len": 256,
+      "min_freq": 2,
+      "val_size": 0.1
+    },
+    "model": {
+      "type": "bilstm_attn",
+      "embed_dim": 64,
+      "hidden_dim": 128,
+      "num_layers": 1,
+      "dropout": 0.3,
+      "num_classes": 2,
+      "pad_idx": 0
+    },
+    "train": {
+      "batch_size": 64,
+      "epochs": 10,
+      "lr": 0.001,
+      "optimizer": "adam",
+      "weight_decay": 0.0,
+      "grad_clip": 1.0,
+      "early_stopping_patience": 3,
+      "device": "auto"
+    },
+    "logging": {
+      "log_every_n_steps": 100,
+      "save_last_ckpt": true
+    }
+  },
+  "best": {
+    "epoch": 4,
+    "val_accuracy": 0.8692,
+    "val_f1": 0.8690625470994431
+  },
+  "test": {
+    "accuracy": 0.85836,
+    "f1": 0.8581044242729552,
+    "precision": 0.8609605818055084,
+    "recall": 0.85836,
+    "per_class": {
+      "neg": {
+        "precision": 0.8303222476218568,
+        "recall": 0.9008,
+        "f1": 0.864126472506811
+      },
+      "pos": {
+        "precision": 0.8915989159891599,
+        "recall": 0.81592,
+        "f1": 0.8520823760390994
+      }
+    },
+    "confusion_matrix": [
+      [
+        11260,
+        1240
+      ],
+      [
+        2301,
+        10199
+      ]
+    ]
+  },
+  "wallclock_seconds": 215.72590619999937,
+  "num_params": 1512194
+}

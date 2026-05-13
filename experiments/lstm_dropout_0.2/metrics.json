@@ -1,0 +1,74 @@
+{
+  "experiment_name": "exp_dropout_0.2",
+  "config_snapshot": {
+    "run_name": "exp_dropout_0.2",
+    "seed": 42,
+    "data": {
+      "dataset": "imdb",
+      "cache_dir": "data/raw",
+      "processed_dir": "data/processed",
+      "vocab_size": 20000,
+      "max_len": 256,
+      "min_freq": 2,
+      "val_size": 0.1
+    },
+    "model": {
+      "type": "lstm",
+      "embed_dim": 128,
+      "hidden_dim": 128,
+      "num_layers": 1,
+      "dropout": 0.2,
+      "num_classes": 2,
+      "pad_idx": 0
+    },
+    "train": {
+      "batch_size": 64,
+      "epochs": 10,
+      "lr": 0.001,
+      "optimizer": "adam",
+      "weight_decay": 0.0,
+      "grad_clip": 1.0,
+      "early_stopping_patience": 3,
+      "device": "auto"
+    },
+    "logging": {
+      "log_every_n_steps": 100,
+      "save_last_ckpt": true
+    }
+  },
+  "best": {
+    "epoch": 10,
+    "val_accuracy": 0.8476,
+    "val_f1": 0.8475461166994862
+  },
+  "test": {
+    "accuracy": 0.84084,
+    "f1": 0.8406780756476064,
+    "precision": 0.8422312857137083,
+    "recall": 0.84084,
+    "per_class": {
+      "neg": {
+        "precision": 0.8204106189366023,
+        "recall": 0.87272,
+        "f1": 0.8457572585959607
+      },
+      "pos": {
+        "precision": 0.8640519524908143,
+        "recall": 0.80896,
+        "f1": 0.8355988926992521
+      }
+    },
+    "confusion_matrix": [
+      [
+        10909,
+        1591
+      ],
+      [
+        2388,
+        10112
+      ]
+    ]
+  },
+  "wallclock_seconds": 267.0283914000029,
+  "num_params": 2692354
+}

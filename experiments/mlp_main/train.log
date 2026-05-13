@@ -1,0 +1,87 @@
+[2026-05-13 15:17:01,739] [mlp_main] [INFO] Setup complete
+[2026-05-13 15:17:49,799] [mlp_main] [INFO] Setup complete
+[2026-05-13 15:18:42,014] [mlp_main] [INFO] Setup complete
+[2026-05-13 15:19:18,299] [mlp_main] [INFO] Setup complete
+[2026-05-13 15:19:48,118] [mlp_main] [INFO] Setup complete
+[2026-05-13 15:20:10,050] [mlp_main] [INFO] Epoch 1 completed and saved to metrics.csv
+[2026-05-13 15:20:30,423] [mlp_main] [INFO] Epoch 2 completed and saved to metrics.csv
+[2026-05-13 15:20:50,642] [mlp_main] [INFO] Epoch 3 completed and saved to metrics.csv
+[2026-05-13 15:21:10,894] [mlp_main] [INFO] Epoch 4 completed and saved to metrics.csv
+[2026-05-13 15:21:31,591] [mlp_main] [INFO] Epoch 5 completed and saved to metrics.csv
+[2026-05-13 15:21:52,064] [mlp_main] [INFO] Epoch 6 completed and saved to metrics.csv
+[2026-05-13 15:22:12,342] [mlp_main] [INFO] Epoch 7 completed and saved to metrics.csv
+[2026-05-13 15:22:32,624] [mlp_main] [INFO] Epoch 8 completed and saved to metrics.csv
+[2026-05-13 15:22:53,191] [mlp_main] [INFO] Epoch 9 completed and saved to metrics.csv
+[2026-05-13 15:23:13,710] [mlp_main] [INFO] Epoch 10 completed and saved to metrics.csv
+[2026-05-13 15:23:13,711] [mlp_main] [INFO] Early stopping triggered
+[2026-05-13 15:23:24,222] [mlp_main] [INFO] Done. Results saved to experiments\mlp_main
+[2026-05-13 15:52:42,301] [mlp_main] [INFO] Setup complete
+[2026-05-13 15:53:01,457] [mlp_main] [INFO] Epoch 1 completed and saved to metrics.csv
+[2026-05-13 15:53:18,707] [mlp_main] [INFO] Epoch 2 completed and saved to metrics.csv
+[2026-05-13 15:53:35,844] [mlp_main] [INFO] Epoch 3 completed and saved to metrics.csv
+[2026-05-13 15:53:52,941] [mlp_main] [INFO] Epoch 4 completed and saved to metrics.csv
+[2026-05-13 15:54:09,967] [mlp_main] [INFO] Epoch 5 completed and saved to metrics.csv
+[2026-05-13 15:54:26,941] [mlp_main] [INFO] Epoch 6 completed and saved to metrics.csv
+[2026-05-13 15:54:44,004] [mlp_main] [INFO] Epoch 7 completed and saved to metrics.csv
+[2026-05-13 15:55:01,061] [mlp_main] [INFO] Epoch 8 completed and saved to metrics.csv
+[2026-05-13 15:55:01,061] [mlp_main] [INFO] Early stopping triggered
+[2026-05-13 15:55:13,754] [mlp_main] [INFO] Done. Results saved to experiments\mlp_main
+[2026-05-13 16:44:07,667] [mlp_main] [INFO] Setup complete
+[2026-05-13 16:44:30,491] [mlp_main] [INFO] Epoch 1 completed and saved to metrics.csv
+[2026-05-13 16:44:50,872] [mlp_main] [INFO] Epoch 2 completed and saved to metrics.csv
+[2026-05-13 16:45:11,176] [mlp_main] [INFO] Epoch 3 completed and saved to metrics.csv
+[2026-05-13 16:45:31,397] [mlp_main] [INFO] Epoch 4 completed and saved to metrics.csv
+[2026-05-13 16:45:51,707] [mlp_main] [INFO] Epoch 5 completed and saved to metrics.csv
+[2026-05-13 16:46:12,265] [mlp_main] [INFO] Epoch 6 completed and saved to metrics.csv
+[2026-05-13 16:46:32,677] [mlp_main] [INFO] Epoch 7 completed and saved to metrics.csv
+[2026-05-13 16:46:52,889] [mlp_main] [INFO] Epoch 8 completed and saved to metrics.csv
+[2026-05-13 16:47:13,102] [mlp_main] [INFO] Epoch 9 completed and saved to metrics.csv
+[2026-05-13 16:47:33,402] [mlp_main] [INFO] Epoch 10 completed and saved to metrics.csv
+[2026-05-13 16:47:33,402] [mlp_main] [INFO] Early stopping triggered
+[2026-05-13 16:47:43,950] [mlp_main] [INFO] Done. Results saved to experiments\mlp_main
+[2026-05-13 17:42:54,821] [mlp_main] [INFO] Setup complete
+[2026-05-13 17:43:17,844] [mlp_main] [INFO] Epoch 1 completed and saved to metrics.csv
+[2026-05-13 17:43:39,156] [mlp_main] [INFO] Epoch 2 completed and saved to metrics.csv
+[2026-05-13 17:44:00,173] [mlp_main] [INFO] Epoch 3 completed and saved to metrics.csv
+[2026-05-13 17:44:21,445] [mlp_main] [INFO] Epoch 4 completed and saved to metrics.csv
+[2026-05-13 17:44:42,854] [mlp_main] [INFO] Epoch 5 completed and saved to metrics.csv
+[2026-05-13 17:45:04,041] [mlp_main] [INFO] Epoch 6 completed and saved to metrics.csv
+[2026-05-13 17:45:25,214] [mlp_main] [INFO] Epoch 7 completed and saved to metrics.csv
+[2026-05-13 17:45:46,299] [mlp_main] [INFO] Epoch 8 completed and saved to metrics.csv
+[2026-05-13 17:45:46,299] [mlp_main] [INFO] Early stopping triggered
+[2026-05-13 17:46:01,495] [mlp_main] [INFO] Done. Results saved to experiments\mlp_main
+[2026-05-13 17:51:26,692] [mlp_main] [INFO] Setup complete
+[2026-05-13 17:51:50,493] [mlp_main] [INFO] Epoch 1 completed and saved to metrics.csv
+[2026-05-13 17:52:11,618] [mlp_main] [INFO] Epoch 2 completed and saved to metrics.csv
+[2026-05-13 17:52:32,806] [mlp_main] [INFO] Epoch 3 completed and saved to metrics.csv
+[2026-05-13 17:52:54,015] [mlp_main] [INFO] Epoch 4 completed and saved to metrics.csv
+[2026-05-13 17:53:15,343] [mlp_main] [INFO] Epoch 5 completed and saved to metrics.csv
+[2026-05-13 17:53:36,868] [mlp_main] [INFO] Epoch 6 completed and saved to metrics.csv
+[2026-05-13 17:53:58,009] [mlp_main] [INFO] Epoch 7 completed and saved to metrics.csv
+[2026-05-13 17:54:19,087] [mlp_main] [INFO] Epoch 8 completed and saved to metrics.csv
+[2026-05-13 17:54:19,087] [mlp_main] [INFO] Early stopping triggered
+[2026-05-13 17:54:35,868] [mlp_main] [INFO] Done. Results saved to experiments\mlp_main
+[2026-05-13 20:16:40,490] [mlp_main] [INFO] Setup complete
+[2026-05-13 20:16:59,864] [mlp_main] [INFO] Epoch 1 completed and saved to metrics.csv
+[2026-05-13 20:17:17,290] [mlp_main] [INFO] Epoch 2 completed and saved to metrics.csv
+[2026-05-13 20:17:34,395] [mlp_main] [INFO] Epoch 3 completed and saved to metrics.csv
+[2026-05-13 20:17:51,926] [mlp_main] [INFO] Epoch 4 completed and saved to metrics.csv
+[2026-05-13 20:18:09,254] [mlp_main] [INFO] Epoch 5 completed and saved to metrics.csv
+[2026-05-13 20:18:26,640] [mlp_main] [INFO] Epoch 6 completed and saved to metrics.csv
+[2026-05-13 20:18:43,921] [mlp_main] [INFO] Epoch 7 completed and saved to metrics.csv
+[2026-05-13 20:19:01,223] [mlp_main] [INFO] Epoch 8 completed and saved to metrics.csv
+[2026-05-13 20:19:01,223] [mlp_main] [INFO] Early stopping triggered
+[2026-05-13 20:19:15,092] [mlp_main] [INFO] Done. Results saved to experiments\mlp_main
+[2026-05-13 20:54:17,153] [mlp_main] [INFO] Setup complete
+[2026-05-13 20:54:39,489] [mlp_main] [INFO] Epoch 1 completed and saved to metrics.csv
+[2026-05-13 20:54:59,179] [mlp_main] [INFO] Epoch 2 completed and saved to metrics.csv
+[2026-05-13 20:55:19,094] [mlp_main] [INFO] Epoch 3 completed and saved to metrics.csv
+[2026-05-13 20:55:40,519] [mlp_main] [INFO] Epoch 4 completed and saved to metrics.csv
+[2026-05-13 20:56:01,239] [mlp_main] [INFO] Epoch 5 completed and saved to metrics.csv
+[2026-05-13 20:56:22,198] [mlp_main] [INFO] Epoch 6 completed and saved to metrics.csv
+[2026-05-13 20:56:42,654] [mlp_main] [INFO] Epoch 7 completed and saved to metrics.csv
+[2026-05-13 20:57:03,306] [mlp_main] [INFO] Epoch 8 completed and saved to metrics.csv
+[2026-05-13 20:57:24,456] [mlp_main] [INFO] Epoch 9 completed and saved to metrics.csv
+[2026-05-13 20:57:45,367] [mlp_main] [INFO] Epoch 10 completed and saved to metrics.csv
+[2026-05-13 20:57:45,367] [mlp_main] [INFO] Early stopping triggered
+[2026-05-13 20:57:55,878] [mlp_main] [INFO] Done. Results saved to experiments\mlp_main
