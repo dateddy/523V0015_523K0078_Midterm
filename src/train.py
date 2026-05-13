@@ -5,6 +5,8 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import pickle
+import sys
 import time
 from pathlib import Path
 from typing import Any
@@ -14,8 +16,12 @@ from torch import Tensor, nn
 from torch.optim import Adam
 from tqdm import tqdm
 
+if __name__ == "__main__" and __package__ is None:
+    sys.path.append(str(Path(__file__).resolve().parents[1]))
+
 from src.dataset import make_loaders
 from src.models import build_model
+from src.preprocess import Vocabulary  # Needed for unpickling vocab.pkl
 from src.utils.config import load_config, save_config, to_dict
 from src.utils.logger import get_logger
 from src.utils.metrics import (
@@ -194,7 +200,8 @@ def main() -> None:
     else:
         device = _device_cfg
 
-    vocab = torch.load(Path("data/processed") / "vocab.pkl", map_location="cpu")
+    with (Path("data/processed") / "vocab.pkl").open("rb") as handle:
+        vocab = pickle.load(handle)
     train_loader, val_loader, test_loader = make_loaders(cfg)
 
     model = build_model(cfg, vocab_size=len(vocab)).to(device)
